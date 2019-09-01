@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: rgba(255, 127, 80, 0.267);
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #567c63;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

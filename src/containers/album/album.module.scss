@@ -1,0 +1,31 @@
+article {
+  width: 200px;
+  .front {
+    .picture {
+      width: 100%;
+      padding: 3%;
+    }
+  }
+  .back {
+    text-align: left;
+    table {
+      font-size: 12.5px;
+      th {
+        border: solid 1px #567c63;
+        color: white;
+        background-color: #567c6380;
+      }
+    }
+  }
+  margin: 2% 2%;
+
+  // .back {
+  //   display: inline-block;
+  //   table {
+  //     margin: 0 auto;
+  //   }
+  // }
+}
+.hiddenStyle {
+  display: none;
+}
