@@ -5,16 +5,6 @@ import NavBar from "../NavBar";
 import AlbumContainer from "../albumContainer";
 
 class Routes extends Component {
-  // state = {
-  //   albumData: []
-  // };
-
-  // componentDidMount() {
-  //   this.setState({
-  //     albumData: this.filteredAlbum()
-  //   });
-  // }
-
   filteredAlbum(genre) {
     return Albums.filter(album => album.genre === genre);
   }

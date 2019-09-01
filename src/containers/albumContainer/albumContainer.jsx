@@ -21,22 +21,9 @@ class AlbumContainer extends Component {
       filteredAlbumList,
       searchText
     });
-    // console.log("asd");
   };
 
-  // static getDerivedStateFromProps(props, state) {
-  //   if (props.albumData !== state.filteredAlbumList) {
-  //     return {
-  //       filteredAlbumList: props.albumData
-  //     };
-  //   }
-  // }
-
   componentDidUpdate(prevProps) {
-    // let newarray = this.props.albumData;
-    // if (this.state.filteredAlbumList !== this.props.albumData) {
-    //   this.setState({ filteredAlbumList: newarray });
-    // }
     if (prevProps !== this.props) {
       this.setState({
         filteredAlbumList: this.props.albumData
@@ -63,29 +50,3 @@ class AlbumContainer extends Component {
 }
 
 export default AlbumContainer;
-
-// state = {
-//   filteredAlbumList: this.props.albumData,
-//   searchText: ""
-// };
-
-// onSearchBarChange = value => {
-//   this.setState({ searchText: value });
-// };
-
-// onSearchFilter = () => {
-//   //const searchText = event.target.value;
-//   //console.log(event.target.value);
-//   const filteredAlbumList = this.state.filteredAlbumList.filter(album =>
-//     album.albumName.toLowerCase().includes(searchText.toLowerCase())
-//   );
-//   console.log(filteredAlbumList);
-
-//   console.log("asd");
-// };
-
-// componentDidMount() {
-//   this.setState({
-//     filteredAlbumList: this.onSearchFilter()
-//   });
-// }

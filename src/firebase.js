@@ -15,7 +15,6 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export const provider = new firebase.auth.GoogleAuthProvider();
-//export const provider = new firebase.auth.FacebookAuthProvider();
 provider.setCustomParameters({
   login_hint: "user@example.com"
 });

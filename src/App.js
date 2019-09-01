@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import Routes from "./containers/Routes";
-// import NavBar from "./containers/NavBar";
 
 function App() {
   return (
